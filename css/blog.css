@@ -1,0 +1,49 @@
+.bg {
+    background-color: #aee1ff57;
+}
+
+.header-text {
+    max-width: 400px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    margin-top: 10px;
+}
+
+.circle,
+.line1,
+.line2,
+.line3,
+footer,
+nav ul li::after {
+    background: #5796bb;
+}
+
+.home-articles {
+    padding-top: 15px;
+    margin-top: 23px;
+    background-color: #fff;
+    position: relative;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    height: 270px;
+    width: 400px;
+}
+
+.home-article-content a {
+    color: #5796bb;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 0 25px;
+}
+
+.home-article-content h3 {
+    font-size: 27px;
+}
