@@ -11,6 +11,10 @@
     margin-top: 10px;
 }
 
+.content {
+    line-height: 2;
+}
+
 .circle,
 .line1,
 .line2,
@@ -34,4 +38,10 @@ nav ul li::after {
 
 nav ul li:hover::after {
     width: 100%;
+}
+
+@media screen and (max-width:380px) {
+    .bg {
+        height: 280px;
+    }
 }
